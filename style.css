@@ -16,8 +16,8 @@ body {
 
 #game-board td {
     border: gray solid 1px;
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
 }
 
 .snake {

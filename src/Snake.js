@@ -35,7 +35,8 @@ class Snake {
         return this.coordinates;
     }
 
-    move () {
+    move ( food ) {
+
 
         let [y, x] = this.coordinates[0].split('-');
 
@@ -56,8 +57,11 @@ class Snake {
 
         const c = y + '-' + x;
         this.coordinates.unshift(c);
+
+    }
+
+    pop() {
         this.coordinates.pop();
-        
     }
 
 }
